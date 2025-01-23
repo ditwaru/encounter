@@ -14,6 +14,7 @@ export default function Home() {
             src="/pictures/worship.webp"
             alt="Worship"
             fill
+            priority
           />
           <header className="text-white flex flex-col justify-center items-center h-full">
             <h1 className="text-4xl uppercase font-bold">Encounter</h1>
@@ -28,7 +29,6 @@ export default function Home() {
               src="/pictures/this-is-home.webp"
               alt="This is home"
               fill
-              priority
           />
           <div className="flex flex-col justify-center align-center h-full space-y-2">
             <button className="p-1 bg-orange-100 max-w-72 self-center hover:bg-zinc-800 hover:text-orange-100 hover:outline-0">
