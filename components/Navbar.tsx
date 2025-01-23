@@ -51,7 +51,7 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className='bg-orange-100 fixed z-10 top-0 w-full px-2 h-10 '>
+        <nav className='bg-orange-100 fixed z-10 top-0 w-full px-2 h-10 text-black'>
             <div className="md:hidden flex items-center h-full">
                 <Hamburger open={hamburgerOpen} handleClick={handleClick} />
             </div>
