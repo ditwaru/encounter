@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      spacing: {
+        'screen-with-footer': 'calc(100vh - 80px);',
+        'body': 'calc(100vh - (2.5rem + 80px));'
+      }
     },
   },
   plugins: [],
